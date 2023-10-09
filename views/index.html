@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+            .prompt {
+                font-size: 16px;
+                color: brown;
+                font-weight: bold;
+            }
+            .container {
+                width: 50%;
+            }
+        </style>
+    </head>
+<body>
+    <h1>Register App</h1>
+
+    <form method='POST' action="/api/v1/account/register">
+        <div class="container">
+            <div class="">
+                <span>User</span>
+            </div>
+            <div class="">
+                <input type="text" id="login" name="login" />
+            </div>
+        </div>
+
+       <div class="container">
+      <div class="">
+                <span>Password</span>
+            </div>
+            <div class="">
+                <input type="text" id="password" name="password" />
+            </div>
+        </div>
+         
+        <div class="">
+            <input type="submit" value="Submit" />
+        </div>
+        </div>
+    </form>
+</body>
+</html>
