@@ -11,6 +11,14 @@ Welcome to the ASTRAI API repository! ASTRAI (Astronomy and Space-Time Response 
 
 ASTRAI is a RESTful API that allows you to interact with a space-themed AI assistant. You can send a question to the API, and it will provide you with a space-related response. The API is available at [https://apiastrai.fly.dev/api/v1/conversation](https://apiastrai.fly.dev/api/v1/conversation) and does not require authentication.
 
+## API Usage
+
+The ASTRAI API is available for public use, and you can access it at the following URL:
+
+- [https://apiastrai.fly.dev/api/v1/conversation](https://apiastrai.fly.dev/api/v1/conversation)
+
+No authentication is required to use the API. Feel free to send your space-related queries and receive informative responses from ASTRAI.
+
 ## How to Set Up Locally
 
 To run the ASTRAI API locally, follow these steps:
